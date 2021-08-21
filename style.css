@@ -1,0 +1,30 @@
+body{
+background-color: #3f3d3d;
+height: 100vh;
+}
+
+.left{
+    background-image: url(/IMG_0712.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 12px 0 0 12px;
+}
+
+.left-cont{
+
+}
+
+.right{
+    background-color: rgba(240, 236, 236, 0.568);
+}
+
+.fab{
+    font-size: x-large;
+}
+
+@media screen and (max-width: 668px) {
+    .left{
+        background-image: none;
+    }
+}
